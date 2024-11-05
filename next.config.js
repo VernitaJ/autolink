@@ -8,7 +8,7 @@ module.exports = {
   },
 
   env: {
-    MONGO_URI: "mongodb+srv://vgouws:vgouws@cluster0.wbd9s.mongodb.net/autodb",
+    MONGO_URI: process.env.MONGO_URI,
     MONGODB_DB: "autodb",
     DEV_URL: "http://localhost:3000",
     PROD_URL: "http://autolink.vercel.com",
