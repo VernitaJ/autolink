@@ -26,7 +26,7 @@ export const LinkContainer = styled.div`
 export const LinkBox = styled.div`
   display: flex;
   padding: 20px;
-  font-family: 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: Helvetica, sans-serif;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
@@ -38,14 +38,12 @@ export const LinkBox = styled.div`
   border: 1px solid darkblue;
   border-radius: 5px;
   z-index: 100;
-  
   }
   p:nth-child(1) {
     transition: background-color 0.9s;
     margin-bottom: 10px;
   }
   p:nth-child(3) {
-    font-family: 'Apple Color Emoji', 'Segoe UI Emoji';
     margin: 10px 30px;
     font-size: 20px;
     font-weight: 500;
